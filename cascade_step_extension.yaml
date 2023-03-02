@@ -1,0 +1,9 @@
+name: Button Extension
+id: cascade-extension-step
+type: step
+url: http://localhost:3002/remoteEntry.js
+module: './Button'
+scope: 'ButtonExtension'
+constraints:
+  - mandatory: true
+    operation: CONTAINS_STEP_NAME
